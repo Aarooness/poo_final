@@ -22,3 +22,7 @@ void Museo::mostrarPosicion() {
 int Museo::getcalifi() {
     return califica;
 }
+
+char Museo::getletra() {
+    return 'M';
+}

@@ -205,11 +205,62 @@ void Tierra::decir() {
     cin>>x;
     cout<<"direccion y: "<<endl;
     cin>>y;
-    //for(int i=0;i<17;i++){
-      //  if(plano[x][y]{}
-        //
+    for(auto& item: objetos) {
+        for (int i = 0; i < 17; i++) {
+            if (plano[x - i][y - i] ==objetos[i]->getletra()) {
+                cout<<"objeto encontrado  "<<objetos[i]->getNombre();
+            }
 
-    //}
+
+        }
+    }
+    for(auto& item: objetos) {
+        for (int i = 0; i < 17; i++) {
+            if (plano[x + i][y + i] == objetos[i]->getletra()) {
+                cout<<"objeto encontrado  "<<objetos[i]->getNombre();
+            }
+
+
+        }
+    }
+
+    for(auto& item: objetos1) {
+        for (int i = 0; i < 17; i++) {
+            if (plano[x - i][y - i] ==objetos1[i]->getletra()) {
+                cout<<"objeto encontrado  "<<objetos1[i]->getNombre();
+            }
+
+
+        }
+    }
+    for(auto& item: objetos1) {
+        for (int i = 0; i < 17; i++) {
+            if (plano[x + i][y + i] == objetos1[i]->getletra()) {
+                cout<<"objeto encontrado  "<<objetos1[i]->getNombre();
+            }
+
+
+        }
+    }
+
+    for(auto& item: objetos2) {
+        for (int i = 0; i < 17; i++) {
+            if (plano[x - i][y - i] ==objetos2[i]->getletra()) {
+                cout<<"objeto encontrado  "<<objetos2[i]->getNombre();
+            }
+
+
+        }
+    }
+    for(auto& item: objetos2) {
+        for (int i = 0; i < 17; i++) {
+            if (plano[x + i][y + i] == objetos2[i]->getletra()) {
+                cout << "objeto encontrado  " << objetos2[i]->getNombre();
+            }
+
+        }
+    }
+
 }
 
 void Tierra::actualizarTierra() {

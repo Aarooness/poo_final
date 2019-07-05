@@ -21,6 +21,8 @@ public:
     void mostrarPosicion() override;
     //
     int getcalifi();
+
+    char getletra();
 //
 
 

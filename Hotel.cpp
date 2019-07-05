@@ -20,3 +20,7 @@ void Hotel::mostrarPosicion() {
 int Hotel::getcalifi() {
     return califi;
 }
+
+char Hotel::getletra() {
+    return 'H';
+}

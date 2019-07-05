@@ -22,3 +22,7 @@ void Restaurante::mostrarPosicion() {
 int Restaurante::getcalifi() {
     return calificacion;
 }
+
+char Restaurante::getletra() {
+    return 'R';
+}

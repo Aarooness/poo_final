@@ -16,7 +16,7 @@ private:
 public:
     Hotel(const string& _nombre,int _x, int _y,char _ti,int es, int cali, const string& dis);
     void mostrarPosicion() override;
-
+    char getletra();
     int getcalifi();
 
 };
