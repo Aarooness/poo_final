@@ -12,7 +12,7 @@ Utilice la implantación de compiladores #mingw" para usar "iostream", component
 
 #Instrucciones de uso:
 
-Al abrir el repositorio P.O.-Proyectp, abrir los documentos en el repositorio. Posteriormente copiar en el IDE y aplicar las clases, como CLion, previamente instalado. Una vez hecho esto disfrutar de la experiencia.
+Al abrir el repositorio P.O.-Proyectp, abrir los documentos en el repositorio. Posteriormente copiar en el IDE como CLion, previamente instalado y aplicar las clases. Una vez hecho esto disfrutar de la experiencia.
 
 #Reglas del proyecto:
 
