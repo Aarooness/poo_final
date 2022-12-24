@@ -1,5 +1,4 @@
 Proyecto de Programación Orientada
--------------Juego Senku----------------
 
 #Instalacion:
 
@@ -13,11 +12,11 @@ Utilice la implantación de compiladores #mingw" para usar "iostream", component
 
 #Instrucciones de uso:
 
-Al abrir el repositorio P.O.-Proyectp, abrir el documento que dice "Progama Ejecutable#. Posteriormente cpiar el código y copiarlo en el IDE, como CLion, previamente instalado. Una vez hecho esto disfrutar el juego.
+Al abrir el repositorio P.O.-Proyectp, abrir los documentos en el repositorio. Posteriormente copiar en el IDE y aplicar las clases, como CLion, previamente instalado. Una vez hecho esto disfrutar de la experiencia.
 
-#Reglas del juego:
+#Reglas del proyecto:
 
-Senku es un juego tipo tablero, inicialmente todos los espacios, representados por "o", están ocupados, excepto el espacio central que se encuentra vacío, los espacios vacíos se representado por "+". La regla del juego es mover los espacios ocupados hacia los espacios vacíos, pero para moverlo es requisito obligatorio saltar sobre SOLO UN ESPACIO que este ocupado,de otro modo el espacio ocupado no podrá moverse. Se gana el juego si al final se queda con solo un espacio ocupado y se pierde si no se puede realizar más movimientos y se tiene más de un espacio ocupado, los movimientos solo son verticales u horizontales.
+En este proyecto se intenta simular un mapa utilizando el codigo C++, para ello se simula u objeto que puede tener como destino un "Museo" o un "Restaurante", para esto el algoritmo reconoce cuando est´´a en el camino "Tierra" o cuando no puede acceder a ciertas zonas, representando las calles. 
 
 #Integrantes:
 
